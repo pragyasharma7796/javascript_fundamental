@@ -1,0 +1,9 @@
+Operators are used in programming to perform operation on variables and values;
+
+In programming languages, operators are symbols or commands that instruct a computer to perform certain operations,
+ such as arithmetic calculations (like addition and subtraction), string manipulations, logical comparisons 
+ (such as greater than or equal to) and more. Depending on the language used, an operator can have multiple functionalities;
+  for instance an ‘=’ symbol may be used to assign values but also for comparison in some programming languages.
+   Operators are crucial building blocks of any programing language since they allow us to utilize all the power of
+computers when writing code.
+

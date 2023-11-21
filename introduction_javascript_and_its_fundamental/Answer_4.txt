@@ -1,0 +1,18 @@
+Variable means anything that can vary. In JavaScript, a variable stores data that can be changed later on.
+
+Declare a Variable
+In JavaScript, a variable can be declared using var, let, const keywords.
+
+1- var keyword is used to declare variables since JavaScript was created. It is confusing and error-prone when using variables declared using var.
+2- let keyword removes the confusion and error of var. It is the new and recommended way of declaring variables in JavaScript.
+3- const keyword is used to declare a constant variable that cannot be changed once assigned a value.
+
+
+Here, we will use the let keyword to declare variables. To declare a variable,
+write the keyword let followed by the name of the variable you want to give, as shown below.
+
+example: -
+let msg;
+msg = "Hello JavaScript!"; // assigning a string value
+
+

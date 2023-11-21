@@ -1,0 +1,168 @@
+The categories of Operators is-
+1. Arithmetic Operators
+2. Assignment Operator
+3. Comparison Operator
+4. Logical Operator
+5. Unary Operator
+
+1. Arithmetic Operators:
+We use arithmetic operators to do mathematical operations like addition, subtraction, multiplication, division,
+etc. It simply takes numerical values as operands, performs an arithmetic operation, and returns a numerical
+value.
+Addition(+): Adds two value together
+
+JavaScript
+var num1 = 100;
+var num2 50;
+var sum = num1 + num2 // 150
+
+subtraction : subtract two value together
+
+var num1 = 100;
+var num2 50;
+var sum = num1 - num2 // 50
+
+division: divide two value together
+
+var num1 = 100;
+var num2 50;
+var sum = num1 + num2 // 2
+multiplication: multiply the value
+var num1 = 100;
+var num2 50;
+var sum = num1 * num2 // 5000
+modulus: return the remender by division operator
+var num1 = 100;
+var num2 50;
+var sum = num1 % num2 //0
+increment & decrement : incrmnet or decrement the value it is uniory operator
+
+var num1=1;
+++num1//2
+
+2. Assignment Operator
+Assignment operators do something with the value on the right side to set the variable on the left side or we
+can say Assignment operators are an essential aspect of JavaScript that allow you to assign values to
+variables and perform arithmetic operations in a concise manner. We can divided into two types:
+a. Simple Assignment
+b. Compound Assignment
+Let’s explore each of them with example to understand better
+
+a. Simple Assignment(=):
+The simple assignment operator is used to assign a single value to a variable. It takes the value on the right
+hand side (RHs) and assigns it to the variable on the left-hand side (LHS).
+Example-1:
+let age = 54
+console.log(age) // 54
+
+In the above example, we used the simple assignment operator(=) to assign the value 54 to the variable ‘age’.
+Example-2:
+let x = 10;
+console.log(x) // 10
+
+b. Compound Assignment:
+Compound assignment operators combine arithmetic operations with assignment. These operators perform
+the specified arithmetic operation on the variable’s current value and then assign the result back to the
+variable. They are a shorthand way of writing expressions.
+Here are some common compound assignment operators in JavaScript:
+. +=: Addition and assignment
+. -=: Subtraction and assignment
+• *=: Multiplication and assignment
+• /=: Division and assignment
+. %=: Modulus and assignment (remainder after division)
+• =: Exponentiation and assignment
+
+Addition and assignment(+=)
+JavaScript
+// Addition and assignment
+let x = 6;
+x += 4 // Equivalent to x = x + 4
+console.log(x) // Output: 10
+In the example above, we used the += operator to add 4to the current value of x (which is 6) and assign the
+result (10) back to x.
+
+Subtraction and assignment(-)
+var y=16
+y -= 4 // equivalent to y = y - 4
+console.log(y) //Output:12
+In this example, we used the -= operator to subtract 4 from the current value of y (which is 16) and assign the
+result (12) bock to y.
+
+Multiplication and asslgnment(*=)
+
+let z = 3;
+z *= 4; // Equivalent to z = z * 4
+console.log(z); // Output: 12
+In this example, we used the = operator to multiply the current value of z (which is 3) by 4 and assign the
+result (12) back to z. After this operation, the value of z becomes 12.
+
+Division and assignment(/=)
+JavaScript
+let num = 15;
+num /= 3; II Equivalent to num = num / 3
+console.log(num); // Output: 5
+In this example, we used the 1= operator to divide the current value of num (which is 15) by 3 and assign the
+result (5) back to num. After this operation, the value of num becomes 5.
+
+3. Comparison Operator
+Comparison Operators are used to compare values and return Boolean results (true or false) based on the
+comparison.
+Let’s explore the four comparison operators: Equality (==, ===), Inequality (!=, !==), Greater than (>),Less than
+(c),Greater than or equal to (>=), and Less than or equal to (<=), along with the nullish coalescing operator
+(??).
+1. Equality () and Strict Equality ():
+. The equality operator (==) and strict equality operator (===) are used to compare two values for
+equality.
+. The equality operator (==) compares both the values. It returns true if both values are equal.
+. The strict equality operator (===) compares bath the values and their types. It only returns true It both
+values and types are the same.
+
+2. InequalIty (!=) and Strict Inequality (!==):
+The inequality operator (!=) compares two values to check if they are not equal and return a Boolean value.
+Butin the case of Strict Inequality operator (i==) checks both the values and their data types. It returns true
+only if both the values and the types are different.
+
+3. Greater than (‘),Less than ((), Greater than or equal to (‘=), Less than or equal to (c=):
+. The greater than operator (>) checks if the left operand is numerically greater than the right operand.
+. The less than operator (<) checks if the left operand is numerically less than the right operand.
+. The greater than or equal to operator (>=) checks if the left operand is numerically greater than or equal to
+the right operand.
+. The less than or equal to operator (c=) checks if the left operand is numerically less than or equal to the
+right operand.
+
+4. Nullish Coalescing (??):
+The nullish coalescing operator (??) is used to handle null or undefined values. It returns the right-hand
+operand if the left-hand operand is null or undefined; otherwise, it returns the left-hand operand.
+Syntax:
+JavaScript
+const result = someValue ?? defaultValue;
+
+. someValue: This is the value that you want to check for null or undefined.
+. defaultValue: This is the value that will be returned ¡f someValue is either null or undefined.
+
+5. Unary Operator
+Unary operators are operators that perform actions on a single operand. Let’s explore some of the Unary
+operators:
+I. unary Plus('+'):
+The unary plus operator is used to convert its operand into a number. While this might seem redundant, it
+becomes valuable when dealing with user inputs that need to be explicitly converted to numbers.
+Example :
+let numString = "42";
+let num = +numStrinq; // Converts "42" to the number 42
+console.log(num);
+
+Inequality. unary negation('-')
+The unary negation operator is used to negate the value of Its operand, effectively changing its sign.
+Example-:
+JavaScript
+let value = 18;
+let negValue = -value;
+console.log(negValue); // Output: -18
+We are declaring a variable value and assigning it the value 10.
+Then, We use the unary negation operator (-) on value to negate its value, effectively changing its sign from
+positive to negative.
+Finally, you assign the negated result to the variable neg Value and then log its value using
+console.log(negValue), which will output -10 to the console.
+
+The unary negation operator simply changes the sign of a number. If the number is positive, it becomes
+negative, and if its negative, it becomes positive.

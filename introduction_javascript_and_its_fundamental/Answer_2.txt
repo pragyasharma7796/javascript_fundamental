@@ -1,0 +1,46 @@
+Key differnce in JavaScript and html :
+1. Purpose: HTML is used for creating the structure and content of a web page, while JavaScript is used for adding interactivity and dynamic behavior to a web page.
+
+2. Syntax: HTML uses markup tags to define elements, while JavaScript uses scripting language syntax.
+
+3. Rendering: HTML is rendered by the browser, while JavaScript is executed by the browser.
+
+4. Dynamic behavior: HTML has no built-in capabilities for creating dynamic behavior, while JavaScript can dynamically change content, styles, and respond to user interactions.
+
+5. Separation from content: JavaScript can be separated from the HTML and placed in a separate file, while HTML is tightly integrated with the content of a web page.
+
+6. Interoperability: HTML is supported by all browsers, while JavaScript implementation may vary among browsers.
+
+7. Server interaction: HTML is static and has no capability for interacting with a server, while JavaScript can communicate with a server and exchange data dynamically.
+
+8. Learning curve: HTML has a relatively low learning curve, while JavaScript has a steeper learning curve due to its scripting language syntax and dynamic capabilities.
+
+
+example-
+
+when we need to take dynamic data from the user input and update web page 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <button type="button"> click me </button>
+
+    <script>
+        const button = document.querySelector("button");
+
+        button.addEventListener("click", updateName);
+
+        function updateName() {
+        const name = prompt("Enter a new name");
+        button.textContent = `Player 1: ${name}`;
+        }
+    </script>
+</body>
+</html>

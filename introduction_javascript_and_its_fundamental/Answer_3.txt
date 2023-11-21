@@ -1,0 +1,48 @@
+Primitive Data type: Stored directly in the location that the variable is accessed.
+
+Following are the 7 primitive types in javascript
+1. String : Combination of alphanumeric characters wrapped in either single or double quotes. Strings can include any
+number, letter or symbol.
+JavaScript
+"Prabir" or 'Prabir'
+
+2. Number : Any number in JavaScript is the Number type, including floats and decimals. Some languages have separate
+types for floats and integers. JavaScript does not. Numbers are not wrapped in quotes.
+
+javaScript
+3e
+98.9
+
+NaN stands for “Not a Number” and is a special value that represents the result of an undefined or
+unrepresentable mathematical operation.
+
+3. BigInt:
+In JavaScript, there is a maximum safe value, which is approximately 2A53 - 1. Similarly, there is also a
+minimum safe value, which is approximate -(2A53 - 1).
+This means that integers less than min safe value or greater than max safe value, may lose precision when
+represented as a JavaScript number. So, for such numbers, we use Biglnt data type.
+The Biglnt data type number can also be treated as a regular number by adding n to it at the end.
+
+JavaScript
+9007199243740991n
+
+4. Boolean:
+A boolean ¡s o true or false value.
+
+JavaScript
+true or false
+
+5. Null: Null means nothing or empty value. It is often used to indicate that a variable or property has no value. 
+
+javaScript
+null
+
+6. undefined : undefined is a special value that indicates that a variable or property has been declared but has not been
+assigned a value.
+undefined
+
+7. Symbol: A Javascript Symbol is a relatively new javascript feature. it was introduced in ES6. This is a new Primitive data
+type called Symbol. Symbols are immutable e means can not be changed and are unique.
+
+JavaScript
+Symbol( " name")

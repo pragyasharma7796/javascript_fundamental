@@ -1,0 +1,31 @@
+Comments
+• Programming languages have a commenting feature that allows you to document your code and
+provide explanations in a way that humans can understand. When multiple developers collaborate on a
+codebase, comments are helpful for clarifying the purpose of specific code sections.
+• Additionally, comments can be used to deactivate code temporarily. This Is beneficial when you want to
+test something without completely removing the code.
+• Comments can also serve as a to-do list, helping you keep track of tasks that need to be completed in
+the future.
+
+
+1-> Single Line Comment
+In JavaScript. single line comments are created by using two forward slashes '//'. Anything after the two
+forward slashes will be ignored by the JavoScript interpreter. This is useful when you want to add a comment
+to a single line of code.
+
+Notes:
+A JS interpreter is a program that executes JavaScript code line by line, producing the desired output. It is
+essential for running JavaScript in different environments like web browsers or servers.
+syntax:
+
+// This is a single line comment
+console.log(’Hello World); // This is a single line comment
+
+2-> Multi Line Comments
+In JavaScript, multi line comments are created by using '/*' and '*/'. Anything between the two symbols will
+be ignored by the JavaScript interpreter. This is useful when you want to add a comment to multiple lines of
+code.
+syntax : 
+/*
+This is a multi line comment
+*/
